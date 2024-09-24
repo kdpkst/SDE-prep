@@ -1,7 +1,7 @@
 using System;
 
 namespace Variables{
-    public class Program{
+    public class Variables{
         static void Main(string[] args){
             string name = "james";
             Console.WriteLine(name);
