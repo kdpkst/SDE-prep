@@ -1,10 +1,9 @@
 ﻿using System;
 
 namespace HelloWorld{
-    class Program{
+    public class Program{
         static void Main(string[] args){
-            Console.WriteLine("helloworld.program");
+            Console.WriteLine("hello world!");
         }
-        
     }
 }
