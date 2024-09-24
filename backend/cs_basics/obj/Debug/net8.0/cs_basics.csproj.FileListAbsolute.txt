@@ -1,0 +1,15 @@
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\bin\Debug\net8.0\cs_basics.exe
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\bin\Debug\net8.0\cs_basics.deps.json
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\bin\Debug\net8.0\cs_basics.runtimeconfig.json
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\bin\Debug\net8.0\cs_basics.dll
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\bin\Debug\net8.0\cs_basics.pdb
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.AssemblyInfoInputs.cache
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.AssemblyInfo.cs
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.csproj.CoreCompileInputs.cache
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.sourcelink.json
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.dll
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\refint\cs_basics.dll
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.pdb
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\cs_basics.genruntimeconfig.cache
+c:\Users\86138\VSCodeProjects\SDE-prep\backend\cs_basics\obj\Debug\net8.0\ref\cs_basics.dll
