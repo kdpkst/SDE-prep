@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj": {}
+    "C:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj": {}
   },
   "projects": {
-    "c:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj": {
+    "C:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj",
+        "projectUniqueName": "C:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj",
         "projectName": "cs_basics",
-        "projectPath": "c:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj",
+        "projectPath": "C:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\cs_basics.csproj",
         "packagesPath": "C:\\Users\\86138\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\obj\\",
+        "outputPath": "C:\\Users\\86138\\VSCodeProjects\\SDE-prep\\backend\\cs_basics\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\86138\\AppData\\Roaming\\NuGet\\NuGet.Config"
