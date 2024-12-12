@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 
 public class Arrays{
     static void Main(string[] args){
