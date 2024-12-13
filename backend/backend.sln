@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cs", "cs\cs.csproj", "{139E85F4-F35F-4E45-977F-FEA2B22A2385}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp", "csharp\csharp.csproj", "{31444313-D91E-454F-A7E1-1B7A23C038FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data structures and algorithms", "data structures and algorithms\data structures and algorithms.csproj", "{DBCB0CAB-1661-49E3-BCB6-2F06F184FA33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +16,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{139E85F4-F35F-4E45-977F-FEA2B22A2385}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{139E85F4-F35F-4E45-977F-FEA2B22A2385}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{139E85F4-F35F-4E45-977F-FEA2B22A2385}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{139E85F4-F35F-4E45-977F-FEA2B22A2385}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31444313-D91E-454F-A7E1-1B7A23C038FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31444313-D91E-454F-A7E1-1B7A23C038FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31444313-D91E-454F-A7E1-1B7A23C038FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31444313-D91E-454F-A7E1-1B7A23C038FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBCB0CAB-1661-49E3-BCB6-2F06F184FA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBCB0CAB-1661-49E3-BCB6-2F06F184FA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBCB0CAB-1661-49E3-BCB6-2F06F184FA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBCB0CAB-1661-49E3-BCB6-2F06F184FA33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
