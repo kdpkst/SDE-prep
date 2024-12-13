@@ -13,6 +13,6 @@ The repository aims to record the learning process for seeking an SDE position i
 - [ASP.NET foundations](https://www.w3schools.com/asp/default.asp)
 - [ASP.NET crash course](https://www.youtube.com/watch?v=6SAFgcMie4U&list=PL-mvqMvlNgW-3el7XfyTcd70INUuPZCvG&index=2)
 - [ASP.NET tutorial Bilibili](https://www.bilibili.com/video/BV1pK41137He/?spm_id_from=333.999.0.0&vd_source=7452c7365736d03767a5c0a3193fdabf)
-- [fundamentals of data structures and algorithmsn](https://www.hello-algo.com/chapter_hello_algo/)
+- [fundamentals of data structures and algorithms](https://www.hello-algo.com/chapter_hello_algo/)
 - [frontend foundations](https://microsoft.github.io/Web-Dev-For-Beginners/#/)
 
