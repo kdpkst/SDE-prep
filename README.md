@@ -22,6 +22,7 @@ The repository aims to record the learning process for seeking an SDE position i
 ### Data Structures and Algorithms
 - [fundamentals of data structures and algorithms](https://www.hello-algo.com/chapter_hello_algo/)
 - [leetcode plan](https://github.com/krahets/LeetCode-Book)
+- [leetcode solutions](https://doocs.github.io/leetcode/)
 ### Git
 - [w3 school git tutorial](https://www.w3schools.com/git/default.asp)
 - [liaoxuefeng git tutorial](https://liaoxuefeng.com/books/git/introduction/index.html)
