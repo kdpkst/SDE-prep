@@ -8,7 +8,7 @@ public class Strings{
         Console.WriteLine("lowercase text: " + text.ToLower());
 
         // another way for concatenation
-        string txt = "but I am mediocre";
+        string txt = "but you are mediocre~";
         Console.WriteLine(string.Concat(text, " ", txt));
 
         // string interpolation usage

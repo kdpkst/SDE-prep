@@ -27,7 +27,7 @@ public class Loops{
         }
         Console.WriteLine("------------");
         
-        // foreach loop
+        // loop through elements in an array (or other data sets)
         string[] cars = {"Ferrari", "Lamborghini", "AstonMartin", "Bugatti"};
         foreach(string car in cars){
             Console.Write(string.Concat(car, " "));

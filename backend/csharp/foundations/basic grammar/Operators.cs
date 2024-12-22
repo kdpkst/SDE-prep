@@ -19,6 +19,5 @@ public class Operators{
         x = 5;
         // right-shift operator
         Console.WriteLine("after x >>= 3, x = " + Convert.ToString(x >>= 3));
-            
     }
 }

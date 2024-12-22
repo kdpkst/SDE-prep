@@ -1,18 +1,22 @@
 using System;
 
 /*
-Access Modifier: 
-public	   The code is accessible for all classes
-private	   The code is only accessible within the same class
-protected  The code is accessible within the same class, or in a class that is inherited from that class
-internal   The code is only accessible within its own assembly, but not from another assembly
+Access Modifier (By default, all members of a class are private if do not specify an access modifier): 
+public	            Access is not restricted
+private	            Access is limited to the containing type
+protected           Access is limited to the containing class or types derived from the containing class
+internal            Access is limited to the current assembly 
+                    (an assembly is a compiled output file, either a .dll or .exe, which contains program's compiled code)
+protected internal  Access is limited to the current assembly or types derived from the containing class
+private protected   Access is limited to the containing class or types derived from the containing class within the current assembly
 */
+
 public class Cars{
-    // By default, all members of a class are private if do not specify an access modifier
-    public string brand;
-    public string engine;
-    public string color;
-    public int maxSpeed;
+    
+    string brand;
+    string engine;
+    string color;
+    int maxSpeed;
 
     // constructors can also be overloaded by using different numbers of parameters
     public Cars(string brand, string engine, string color, int maxSpeed){

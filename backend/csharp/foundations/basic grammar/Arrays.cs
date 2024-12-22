@@ -6,10 +6,13 @@ public class Arrays{
         Console.WriteLine("Length of the array: " + cars.Length);
 
         // four ways to create new arrays
-        string[] cars1 = new string[4];
+        string[] cars1 = new string[4]; 
+        // require explicitly use the new keyword when assigning a new array after its declaration
+        // cars1 = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
         string[] cars2 = new string[4] {"Volvo", "BMW", "Ford", "Mazda"}; 
         string[] cars3 = new string[] {"Volvo", "BMW", "Ford", "Mazda"};
         string[] cars4 = {"Volvo", "BMW", "Ford", "Mazda"};
+
         
         // access the array
         for (int i = 0; i < cars2.Length; i++){
@@ -17,7 +20,7 @@ public class Arrays{
         }
         Console.Write("\n");
 
-        // sort the array 
+        // sort the array in an ascending order
         Array.Sort(cars);
         foreach(string car in cars){
             Console.Write(car + " ");
@@ -63,7 +66,7 @@ public class Arrays{
         }
         Console.WriteLine("");
         
-        // one loop for each dimention if do not use foreach
+        // one loop for each dimension if do not use foreach
         for (int i = 0; i < multiArray.GetLength(0); i++){
             for (int j= 0; j < multiArray.GetLength(1); j++){
                 Console.Write(string.Concat(multiArray[i, j], " "));

@@ -9,14 +9,14 @@ public class Program{
     }
 
     static void properties(){
-        People people = new People("2000.01.01");
+        People people = new People("2000.01.01", "Male");
         people.Name = "James";
         Console.WriteLine(string.Concat(people.Name, " was born on ", people.Birthday));
         Console.WriteLine("-----------");
     }
 
     static void inheritance(){
-        Students stu = new Students("1990.01.01");
+        Students stu = new Students("1990.01.01", "Female", 99);
         stu.walk();
         Console.WriteLine("-----------");
     }
@@ -126,9 +126,9 @@ public class Program{
         // polymorphism();
         // abstraction();
         // interfaces();
-        // enumerations();
+        enumerations();
         // fileOperations();
-        exceptions();
+        // exceptions();
     }
     
 }
