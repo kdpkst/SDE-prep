@@ -1,7 +1,7 @@
 using System;
 
 public class Operators{
-    static void Main(string[] args){
+    static void Main(){
         // & bitwise AND
         int x = 5;
         Console.WriteLine("after x &= 3, x = " + Convert.ToString(x &= 3));

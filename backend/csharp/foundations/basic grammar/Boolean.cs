@@ -1,7 +1,7 @@
 using System;
 
 public class Boolean{
-    static void Main(string[] args){
+    static void Main(){
         Console.Write("Enter your age: ");
         int age = Convert.ToInt32(Console.ReadLine());
 

@@ -1,7 +1,7 @@
 using System;
 
 public class Output{
-    static void Main(string[] args){
+    static void Main(){
         Console.WriteLine("line 1");
         Console.WriteLine("line 2");
         

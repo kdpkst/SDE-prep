@@ -1,7 +1,7 @@
 using System;
 
 public class Operations{
-    static void Main(string[] args){
+    static void Main(){
         // many Math methods return double data type 
         Console.WriteLine(Math.Min(0, -9));
         Console.WriteLine(Math.Max(10, 9));

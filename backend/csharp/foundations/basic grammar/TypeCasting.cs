@@ -1,7 +1,7 @@
 using System;
 
 public class TypeCasting{
-    static void Main(string[] args){
+    static void Main(){
         // implicit casting is done automatically when passing a smaller size type to a larger size type
         int x = 8;
         double y = x;

@@ -2,7 +2,7 @@ using System;
 
 public class UserInput{
 
-    static void Main(string[] args){
+    static void Main(){
         // input data type is string
         Console.Write("Enter username: ");
         string username = Console.ReadLine();

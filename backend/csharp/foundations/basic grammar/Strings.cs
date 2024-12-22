@@ -1,7 +1,7 @@
 using System;
 
 public class Strings{
-    static void Main(string[] args){
+    static void Main(){
         string text = "I am a genius!";
         Console.WriteLine("text length: " + text.Length);
         Console.WriteLine("uppercase text: " + text.ToUpper());

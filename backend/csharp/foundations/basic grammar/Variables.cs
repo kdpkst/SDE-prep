@@ -1,7 +1,7 @@
 using System;
 
 public class Variables{
-    static void Main(string[] args){
+    static void Main(){
         // common data types in cs 
         char letter = 'a';
         Console.WriteLine(letter);

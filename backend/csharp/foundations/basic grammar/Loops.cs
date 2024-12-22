@@ -1,7 +1,7 @@
 using System;
 
 public class Loops{
-    static void Main(string[] args){
+    static void Main(){
         int i = 0;
         while (i < 5){
             Console.WriteLine(i);

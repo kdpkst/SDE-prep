@@ -1,7 +1,7 @@
 using System;
 
 public class Conditions{
-    static void Main(string[] args){
+    static void Main(){
         Console.Write("Enter current time: ");
         int time = Convert.ToInt32(Console.ReadLine());
         if (time >= 1 && time <= 9){

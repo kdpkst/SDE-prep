@@ -119,14 +119,14 @@ public class Program{
     }
 
 
-    static void Main(string[] args){
+    static void Main(){
         // OOPFundamentals();
         // properties();
         // inheritance();
         // polymorphism();
         // abstraction();
         // interfaces();
-        enumerations();
+        // enumerations();
         // fileOperations();
         // exceptions();
     }

@@ -12,7 +12,7 @@ public class Methods{
         return x + y;
     } 
 
-    static void Main(string[] args){
+    static void Main(){
         int a = addition(5, 9, 0);
         Console.WriteLine("a = " + a);
 

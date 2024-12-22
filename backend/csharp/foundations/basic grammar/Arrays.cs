@@ -1,7 +1,7 @@
 using System;
 
 public class Arrays{
-    static void Main(string[] args){
+    static void Main(){
         string[] cars = {"Ferrari", "Lamborghini", "AstonMartin", "Bugatti"};
         Console.WriteLine("Length of the array: " + cars.Length);
 
