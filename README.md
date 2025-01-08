@@ -8,7 +8,8 @@ The repository aims to record the learning process for seeking an SDE position i
 
 ## Full Stack Development Learning Materials
 ### CSharp
-- [c# foundations](https://www.w3schools.com/cs/index.php) 
+- [c# foundations](https://www.w3schools.com/cs/index.php)
+- [c# mini projects](https://www.youtube.com/playlist?list=PLm9GTh6TKrHOW8-eWabg6ETm95ajMid3b)
 - [c# advanced features](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview)
 - [c# advanced programming course Youtube](https://www.youtube.com/watch?v=YT8s-90oDC0&list=PL-mvqMvlNgW-3el7XfyTcd70INUuPZCvG&index=4&t=1337s)
 ### .NET
