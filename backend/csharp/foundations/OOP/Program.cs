@@ -74,12 +74,12 @@ public class Program{
         WriteAllText()	Creates a new file and writes the contents to it. If the file already exists, it will be overwritten
         */
 
-        string filepath = "./../../../OOP/test.txt";
+        string filepath = "../../../foundations/OOP/test.txt";
         if (!File.Exists(filepath)){
             string writeText = "long long ago, ...";
-            File.WriteAllText("./../../../OOP/test.txt", writeText);
+            File.WriteAllText(filepath, writeText);
 
-            string readText = File.ReadAllText("./../../../OOP/test.txt");
+            string readText = File.ReadAllText(filepath);
             Console.WriteLine(readText);
         }
         else {
