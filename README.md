@@ -13,7 +13,7 @@ The repository aims to record the learning process for seeking an SDE position i
 - [c# advanced features](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview)
 - [c# advanced programming course Youtube](https://www.youtube.com/watch?v=YT8s-90oDC0&list=PL-mvqMvlNgW-3el7XfyTcd70INUuPZCvG&index=4&t=1337s)
 ### .NET
-- [ASP.NET foundations](https://www.w3schools.com/asp/default.asp)
+- [ASP.NET foundations](https://learn.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-9.0)
 - [ASP.NET crash course](https://www.youtube.com/watch?v=6SAFgcMie4U&list=PL-mvqMvlNgW-3el7XfyTcd70INUuPZCvG&index=2)
 - [ASP.NET tutorial Bilibili](https://www.bilibili.com/video/BV1pK41137He/?spm_id_from=333.999.0.0&vd_source=7452c7365736d03767a5c0a3193fdabf)
 ### Frontend Development
