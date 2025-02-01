@@ -14,7 +14,7 @@ public class Enumerations{
 }
 
 // enum can be inside or outside a class
-enum trafficLight{
+enum TrafficLight{
     RED,
     GREEN,
     YELLOW

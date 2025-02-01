@@ -26,7 +26,7 @@ public class Cars{
         this.maxSpeed = maxSpeed;
     }
 
-    public void infoPrinter(){
+    public void InfoPrinter(){
         Console.WriteLine("Detailed Info:");
         Console.WriteLine("brand name: " + this.brand + " | engine: " + this.engine + " | color: " + this.color + " | max speed: " + this.maxSpeed);
     }

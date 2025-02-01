@@ -1,14 +1,14 @@
 using System;
 
 public abstract class Plants{
-    public abstract void grow();
-    public void photosynthesis(){
+    public abstract void Grow();
+    public void Photosynthesis(){
         Console.WriteLine("absorb carbon dioxide...");
     }
 }
 
 public class Lotus : Plants{
-    public override void grow(){
+    public override void Grow(){
         Console.WriteLine("lotus grows in water...");
     } 
 }

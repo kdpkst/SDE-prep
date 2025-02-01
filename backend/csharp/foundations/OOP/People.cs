@@ -19,7 +19,7 @@ public class People{
         Gender = gender;
     }
 
-    public void walk(){
+    public void Walk(){
         Console.WriteLine("people can walk...");
     }
 }

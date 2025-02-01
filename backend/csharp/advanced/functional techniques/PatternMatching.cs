@@ -2,7 +2,7 @@ public record Order(int Items, decimal Cost);
 
 public class PatternMatching {
 
-    static void nullCheck() {
+    static void NullCheck() {
         int? maybe = 12;
         // expression: obj is Type variableName
         // if obj is of the given Type and not null, the condition evaluates to true.
@@ -15,7 +15,7 @@ public class PatternMatching {
         }
     }
 
-    static string discreteValueComp(string command) => 
+    static string DiscreteValueComp(string command) => 
         // the expression has a return type 
         command switch
         {
@@ -26,7 +26,7 @@ public class PatternMatching {
             _ => throw new ArgumentException("Invalid string value for command", nameof(command))
         };
 
-    static string relationalPatterns(int tempInCentigrade) =>
+    static string RelationalPatterns(int tempInCentigrade) =>
         tempInCentigrade switch {
             < 0 => "solid",
             0 => "solid/liquid equilibrium",
@@ -35,7 +35,7 @@ public class PatternMatching {
             > 100 => "gas"
         };
 
-    static decimal multipleInputs(Order order) => 
+    static decimal MultipleInputs(Order order) => 
         order switch {
             // () is ussed for positional patterns, typically for records or tuples
             (>10, >1000m) => 0.9m,
@@ -47,7 +47,7 @@ public class PatternMatching {
             var regularOrder => 0m
         };
 
-    static decimal listPatterns(string[,] transactions) {
+    static decimal ListPatterns(string[,] transactions) {
         decimal balance = 0;
         for (int i = 0; i < transactions.GetLength(0); i++) {
             string[] row = new string[transactions.GetLength(1)];
@@ -67,21 +67,17 @@ public class PatternMatching {
         return balance;
     }
 
-    static decimal test (){
-        return 0;
-    }
-
     static void Main() {
-        nullCheck();
+        NullCheck();
 
-        string systemAction = discreteValueComp("start");
+        string systemAction = DiscreteValueComp("start");
         Console.WriteLine(systemAction);
 
-        string waterState = relationalPatterns(100);
+        string waterState = RelationalPatterns(100);
         Console.WriteLine(waterState);
 
         Order order = new Order(10, 800m);
-        decimal discount = multipleInputs(order);
+        decimal discount = MultipleInputs(order);
         Console.WriteLine(discount);
 
         string[,] transactions = {{"01-01-2025", "DEPOSIT", "Initial deposit", "2000"},
@@ -90,7 +86,7 @@ public class PatternMatching {
                                  {"15-01-2025", "FEE", "", "5000"},
                                  {"17-01-2025", "INTEREST", "", "0.65"},
                                 };
-        decimal balance = listPatterns(transactions);
+        decimal balance = ListPatterns(transactions);
         // :C in $"{balance:C}" is a format specifier, formating the value as a currency string
         Console.WriteLine($"{balance:C}");
     }

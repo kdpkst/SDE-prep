@@ -4,56 +4,56 @@ public class Program{
 
     static void OOPFundamentals(){
         Cars car = new Cars("Ferrari", "V8", "R", 310);
-        car.infoPrinter();
+        car.InfoPrinter();
         Console.WriteLine("-----------");
     }
 
-    static void properties(){
+    static void Properties(){
         People people = new People("2000.01.01", "Male");
         people.Name = "James";
         Console.WriteLine(string.Concat(people.Name, " was born on ", people.Birthday));
         Console.WriteLine("-----------");
     }
 
-    static void inheritance(){
+    static void Inheritance(){
         Students stu = new Students("1990.01.01", "Female", 99);
-        stu.walk();
+        stu.Walk();
         Console.WriteLine("-----------");
     }
 
-    static void polymorphism(){
+    static void Polymorphism(){
         Animals animal1 = new Animals();
         Animals bird1 = new Birds();
         Animals dog1 = new Dogs();
-        animal1.animalSound();
-        bird1.animalSound();
-        dog1.animalSound();
+        animal1.AnimalSound();
+        bird1.AnimalSound();
+        dog1.AnimalSound();
 
         Animals animal2 = new Animals();
         Animals bird2 = new Birds();
         Animals dog2 = new Dogs();
-        animal2.animalMove();
-        bird2.animalMove();
-        dog2.animalMove();
+        animal2.AnimalMove();
+        bird2.AnimalMove();
+        dog2.AnimalMove();
         Console.WriteLine("-----------");
     }
 
-    static void abstraction(){
+    static void Abstraction(){
         Lotus lotus = new Lotus();
-        lotus.grow();
-        lotus.photosynthesis();
+        lotus.Grow();
+        lotus.Photosynthesis();
         Console.WriteLine("-----------");
     }
 
-    static void interfaces(){
+    static void Interfaces(){
         Planes plane = new Planes();
-        plane.move();
+        plane.Move();
         ElectricCars teslaModelX = new ElectricCars();
-        teslaModelX.charge();
+        teslaModelX.Charge();
     }
 
-    static void enumerations(){
-        trafficLight red = trafficLight.RED;
+    static void Enumerations(){
+        TrafficLight red = TrafficLight.RED;
         Console.WriteLine($"Named Constants: {red}");
         
         foreach(Enumerations.DaysOfWeek day in Enum.GetValues(typeof(Enumerations.DaysOfWeek))){
@@ -62,7 +62,7 @@ public class Program{
         }
     }
 
-    static void fileOperations(){
+    static void FileOperations(){
         /* 
         AppendText()	Appends text at the end of an existing file
         Copy()	        Copies a file
@@ -87,7 +87,7 @@ public class Program{
         }
     }
 
-    static void exceptions(){
+    static void Exceptions(){
         try{
             int[,] intArray = {{1,2,3}, {2,3,4}, {3,4,5}};
             Console.WriteLine(intArray[10,10]);
@@ -120,15 +120,15 @@ public class Program{
 
 
     static void Main(){
-        // OOPFundamentals();
-        // properties();
-        // inheritance();
-        // polymorphism();
-        // abstraction();
-        // interfaces();
-        // enumerations();
-        // fileOperations();
-        // exceptions();
+        OOPFundamentals();
+        Properties();
+        Inheritance();
+        Polymorphism();
+        Abstraction();
+        Interfaces();
+        Enumerations();
+        FileOperations();
+        Exceptions();
     }
     
 }

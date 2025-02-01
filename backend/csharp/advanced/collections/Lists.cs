@@ -1,6 +1,6 @@
 public class Lists {
 
-    static void listOperations() {
+    static void ListOperations() {
         var names = new List<string> {"Kim", "Mark", "Tresa"};
         foreach (var name in names) {
             Console.WriteLine($"Hi, {name.ToUpper()}!");
@@ -36,7 +36,7 @@ public class Lists {
         }
     }
 
-    static void fibonacci(int length) {
+    static void Fibonacci(int length) {
         var fibonacciNumbers = new List<int> {1,1};
         while (fibonacciNumbers.Count < length) {
             int pre1 = fibonacciNumbers[fibonacciNumbers.Count - 1];
@@ -49,9 +49,7 @@ public class Lists {
     } 
 
     static void Main() {
-        // listOperations();
-        // fibonacci(20);
-        byte b = byte.MaxValue;
-        Console.WriteLine(b);
+        ListOperations();
+        Fibonacci(20);
     }
 }

@@ -1,34 +1,34 @@
 using System;
 
 interface IVehicles{
-    void move();
-    void stop();
+    void Move();
+    void Stop();
 }
 
 interface IElectric{
-    void charge();
+    void Charge();
 }
 
 public class Planes : IVehicles{
-    public void move(){
+    public void Move(){
         Console.WriteLine("the plane is flying...");
     }
 
-    public void stop(){
+    public void Stop(){
         Console.WriteLine("the plane has stopped...");
     }
 }
 
 public class ElectricCars : IVehicles, IElectric{
-    public void move(){
+    public void Move(){
         Console.WriteLine("the electric car is moving...");
     }
 
-    public void stop(){
+    public void Stop(){
         Console.WriteLine("the electric car has stopped...");
     }
     
-    public void charge(){
+    public void Charge(){
         Console.WriteLine("the electric car is charging...");
     }
 }
