@@ -1,6 +1,23 @@
 public class Deconstruction {
+
+    public static (string, int, double) QueryCityData(string cityName) {
+        if (cityName == "Chong Qing") {
+            // (name of the city, population, size in square km)
+            return (cityName, 31914300, 82400);
+        }
+        return ("", 0, 0);
+    }
+
     static void Main() {
+        // alternative ways to deconstruct a tuple:
+        // 1. var (name, pop, size)  
+        // 2. (string name, var pop, var size)
+        // 3. deconstruct the tuple into variables already declared
+        // 4. mix variable declaration and assignment in a deconstruction
+        (string name, int pop, double size) = QueryCityData("Chong Qing");
+
         var p = new Person("John", "Quincy", "Adams", "Boston", "MA");
+        // deconstruct an object
         var (fName, _, city, _) = p;
         Console.WriteLine($"Hello {fName} of {city}!");
     }
