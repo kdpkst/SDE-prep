@@ -3,7 +3,7 @@ The repository aims to record the learning process for seeking an SDE position
 
 ## Essential points to find a job
 - **Internal Referral** is the key
-- Strong communication ability (barrier-free communication in English)
+- Strong communication ability (communicate effortlessly in English)
 - Work/Project experience
 
 ## Full Stack Development Learning Materials
