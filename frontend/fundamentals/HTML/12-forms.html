@@ -4,5 +4,86 @@
     <title>Forms</title>
 </head>
 <body>
+    <!-- textbox -->
+    <form> 
+        <label for="usernameID">Username</label>
+        <input type="text" id="usernameID" name="username">
+        <label for="passwordID">Password</label>
+        <input type="password" id="passwordID" name="pwd">
+    </form>
 
+    <!-- group controls into different sections -->
+    <form>
+        <fieldset>
+            <legend>Account</legend>
+            <label for="usernameID">Username</label>
+            <input type="text" id="account-username" name="username">
+            <label for="passwordID">Password</label>
+            <input type="password" id="account-password" name="pwd">
+        </fieldset>
+        <fieldset>
+            <legend>Personal Infomation</legend>
+            <label for="fname">Firstname</label>
+            <input type="text" id="fname" name="firstname">
+            <label for="lname">Lastname</label>
+            <input type="text" id="lname" name="lastname">
+        </fieldset>
+    </form>
+
+    <!-- checkbox: multiple items can be selected -->
+    <form>
+        <!-- group together by setting name attributes of inputs to the same value -->
+        <label for="ff">firefox</label>
+        <input type="checkbox" id="ff" name="browser" value="firefox">
+        <label for="c">chrome</label>
+        <input type="checkbox" id="c" name="browser" value="chrome">
+        <label for="e">edge</label>
+        <input type="checkbox" id="e" name="browser" value="edge">
+        <label for="s">safari</label>
+        <input type="checkbox" id="s" name="browser" value="safari">
+    </form>
+
+    <!-- radio buttons: only 1 item can be selected -->
+    <form>
+        <label for="ff">firefox</label>
+        <!-- checked attribute: be selected by default -->
+        <input type="radio" checked="ff" name="browser" value="firefox">
+        <label for="c">chrome</label>
+        <input type="radio" id="c" name="browser" value="chrome">
+        <label for="e">edge</label>
+        <input type="radio" id="e" name="browser" value="edge">
+        <label for="s">safari</label>
+        <input type="radio" id="s" name="browser" value="safari">
+    </form>
+
+    <!-- drop-down list -->
+    <form>
+        <label for="fullname">Fullname</label>
+        <input type="text" id="name" name="name">
+        <label>Age</label>
+        <input type="text" id="age" name="age">
+
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="nonbinary">Non-binary</option>
+            <option value="na">A gender not listed here</option>
+            <!-- selected attribute indicates default option -->
+            <option value="not-to-say" selected>Prefer not to say</option>
+        </select>
+    </form>
+
+    <!-- more text input -->
+    <!-- action attribute specifies where (which URL) the form data should be sent when submitted -->
+    <form method="POST" action="/process-form"> 
+        <label for="textbox"> textbox example</label>
+        <!-- can optionally provide initial text -->
+        <textarea id="textbox" name="textbox" rows="4" cols="60">enter text here</textarea>
+        <!-- value attribute controls text displayed on the button -->
+        <input type="reset" value="Reset the Textbox"> 
+        <input type="submit" value="Submit Button">
+    </form>
+
+    
 </body>
