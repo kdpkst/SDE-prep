@@ -1,0 +1,13 @@
+/* class selector */
+.header {
+    background-color: bisque;
+    padding: 20px;
+    text-align: center;
+}
+
+/* id selector */
+#one {
+    font-size: 20pt;
+    font-weight: bold;
+    color: chocolate;
+}

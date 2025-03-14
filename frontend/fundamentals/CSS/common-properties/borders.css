@@ -1,0 +1,44 @@
+table {
+    border-style: solid;
+    border-left-style: dashed;
+    border-right-style: dashed;
+
+    border-left-color: orangered;
+    border-right-color: orangered;
+    border-top-color: rgb(255, 142, 85);
+    border-bottom-color: rgb(255, 142, 85);
+
+    border-width: 2pt;
+    
+    border-collapse: collapse;
+
+    /* border property allows to set the width, style and color in a single line */
+    border-left: 2pt dashed orangered;
+    border-right: 2pt dashed orangered;
+}
+
+td, th {
+    border: 1pt solid orange;
+}
+
+th {
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: 12pt;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10pt
+}
+
+/* @font-face allows to define and use custom fonts in your web page */
+/* @font-face {
+    font-family: 'defined-font-name';
+    src: url('path/to/defined-font-name.ttf');
+    font-weight: xxx;
+    font-style: xxx
+} */
+
