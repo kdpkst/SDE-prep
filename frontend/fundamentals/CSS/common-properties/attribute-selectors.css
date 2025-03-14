@@ -11,3 +11,8 @@
     font-weight: bold;
     color: chocolate;
 }
+
+
+input[type="text"] {
+    background-color: aqua
+}
