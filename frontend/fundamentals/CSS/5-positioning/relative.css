@@ -1,0 +1,16 @@
+strong {
+    font-size: 15pt
+}
+
+/* 
+   Relative Positioning: move an element relative to its normal position in the document flow
+   top: Move the element down (positive) or up (negative) from its normal position.
+   right: Move the element left (positive) or right (negative) from its normal position.
+   bottom: Move the element up (positive) or down (negative) from its normal position.
+   left: Move the element right (positive) or left (negative) from its normal position.
+*/
+#img1 {
+    position: relative;
+    left: 135px;
+    bottom: 49px
+}

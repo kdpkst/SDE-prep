@@ -1,0 +1,20 @@
+strong {
+    font-size: 15pt
+}
+
+/* 
+   Sticky Positioning: 
+   Before scroll, the element behaves like a relative element in normal document flow
+   After scroll, the element sticks there, remaining visible as you continue scrolling
+*/
+header {
+    position: sticky;
+    top: 0px;  
+    background-color: white;  /* Ensures visibility */
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 2px solid gray
+}
+

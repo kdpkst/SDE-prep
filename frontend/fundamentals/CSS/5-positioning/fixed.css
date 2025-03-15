@@ -1,0 +1,10 @@
+strong {
+    font-size: 15pt
+}
+
+/* Fixed Positioning: remove from normal work flow and position an element relative to viewpoint (browser window) */
+#img1 {
+    position: fixed;
+    left: 147px;
+    top: 32px
+}

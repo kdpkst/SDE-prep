@@ -1,0 +1,13 @@
+strong {
+    font-size: 15pt
+}
+
+/* 
+  Float: remove from normal work flow and allow other content to wrap around it. 
+  float: left; move the element to the left of its container, allowing content to wrap around its right side.
+  float: right; move the element to the right of its container, allowing content to wrap around its left side.
+*/
+#img1 {
+    float: left;
+    margin-right: 5px
+} 
