@@ -12,7 +12,7 @@
     color: chocolate;
 }
 
-
+/* attribute selectors: tag[attribute="value"]{} */
 input[type="text"] {
     background-color: aqua
 }

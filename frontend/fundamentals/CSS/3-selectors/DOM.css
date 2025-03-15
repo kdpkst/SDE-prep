@@ -1,0 +1,18 @@
+/* child selector */
+/* match any tr elements that are direct children of a thead element */
+thead > tr {
+    color: blue
+}
+
+/* descendant selector */
+/* match any p elements that is below class quotes in the DOM tree */
+.buffett-quotes li {
+    font-size: 15pt;
+    color: orange
+}
+.einstein-quotes li {
+    font-size: 15pt;
+    color:orangered
+}
+
+

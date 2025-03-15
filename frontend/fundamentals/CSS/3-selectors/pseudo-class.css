@@ -1,0 +1,26 @@
+/* style a link after it has been clicked */
+a:visited {
+    color: purple
+}
+
+/* style an element when the user hovers over it */
+p:hover{
+    color: blue;
+    font-size: 20pt;
+    font-style: italic
+}
+
+/* style an element when it gains focus (e.g., clicked or tabbed into) */
+input[type="text"]:focus {
+    background-color: lightyellow;
+    border: 2px solid red
+}
+
+/* select the nth child of a parent (can use odd, even, or specific numbers) */
+li:nth-child(odd) {
+    color:crimson
+}
+
+li:nth-child(2) {
+    border: 1px dashed orange;
+}
