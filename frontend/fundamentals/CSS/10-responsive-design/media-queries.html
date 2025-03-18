@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Responsive Design</title>
+        <!-- global style -->
+        <link href="./style.css" rel="stylesheet" type="text/css">
+
+        <!-- device-specific styles -->
+        <!-- adv of using media attribute: 
+         The browser only fetches the file if the device matches the query, improving performance -->
+        <link rel="stylesheet" href="./laptop.css" media="screen and (min-width: 1024px)">
+        <link rel="stylesheet" href="./mobile.css" media="screen and (max-width: 1024px)">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to Responsive Design</h1>
+        </header>
+        <p>This page adapts to different devices!</p>
+    </body>
+</html>

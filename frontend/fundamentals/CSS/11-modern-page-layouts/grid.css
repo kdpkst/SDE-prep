@@ -1,0 +1,27 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* two columns: 1 fraction and 3 fractions */
+    grid-template-rows: 80px auto 80px; /* three rows */
+    gap: 10px; /* spacing between items */
+    height: 100vh;
+  }
+  
+.header {
+    grid-column: 1 / -1; /* span all columns */
+    background-color: lightcoral;
+}
+  
+.sidebar {
+    grid-row: 2 / 3; /* span second row */
+    background-color: lightblue;
+}
+  
+.main {
+    grid-row: 2 / 3; /* span second row */
+    background-color: lightgreen;
+}
+  
+.footer {
+    grid-column: 1 / -1; /* span all columns */
+    background-color: lightyellow;
+}

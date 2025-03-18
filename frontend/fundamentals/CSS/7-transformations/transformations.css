@@ -1,0 +1,27 @@
+#kiwi2 {
+    display: block;
+    margin: auto;
+}
+
+#kiwi3 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+#kiwi1:hover {
+    /* rotate x degrees on all 3 axis */
+    transform: rotate3d(1, 1, 1, 75deg);
+}
+
+#kiwi2:hover {
+    /* scale the image to xx width, xx height */
+    transform: scale(0.9, 1.5);
+}
+
+#kiwi3:hover {
+    /* rotate the image x degree clockwise */
+    transform: rotate(20deg);
+}

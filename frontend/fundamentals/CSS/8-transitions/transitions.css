@@ -1,0 +1,22 @@
+input[type="text"] {
+    width: 100px;
+    transition-property: width;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
+
+input[type="submit"] {
+    width: 100px;
+    /* transition: <property> <duration> <timing-function> <delay>; */
+    transition: width 10s ease;
+}
+
+input[type="submit"]:focus {
+    width: 500px;
+}
+

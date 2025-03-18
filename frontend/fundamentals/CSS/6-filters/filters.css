@@ -1,0 +1,35 @@
+#kiwi2 {
+    /* display: block; makes inline <img> a block-level element */
+    display: block;
+    /* auto tells the browser to automatically distribute the left and right margins equally */
+    margin: auto;
+}
+
+#kiwi3 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+#kiwi1:hover {
+    /* reduce the brightness of the image to xx% of its original value. */
+    filter: brightness(150%)
+}
+
+#kiwi2:hover {
+    /* 
+     contrast controls the difference between light and dark areas in an image 
+     higher contrast makes bright areas brighter and dark areas darker and vice versa
+    */
+    filter:contrast(200%)
+}
+
+#kiwi3:hover {
+    /* 
+      blur the image, making it look soft or out of focus 
+      add (0-100)% sepia tone  
+    */ 
+    filter: blur(2px) sepia(70%)
+}

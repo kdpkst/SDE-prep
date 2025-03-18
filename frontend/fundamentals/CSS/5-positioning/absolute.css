@@ -1,10 +1,10 @@
 strong {
-    font-size: 15pt
+    font-size: 15pt;
 }
 
 /* Absolute Positioning: remove from normal work flow and position an element relative to the containing block */
 #img1 {
     position: absolute;
     left: 145px;
-    top: 32px
+    top: 32px;
 }

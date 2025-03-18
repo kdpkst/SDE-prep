@@ -1,0 +1,52 @@
+h1 {
+    animation-duration: 3s;
+    animation-name: slide-right;
+} 
+
+@keyframes slide-right {
+    from {
+        /* xx% the width of the element's containing block (parent element) */
+        margin-left: 100%;
+        /* only make the container (here is <h1> box) xx% wider, not the text content */
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+#blue {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation-duration: 10s;
+    animation-name: hrmm;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes hrmm {
+    /* from (0%), 1-99%, to (100%) just defines different key frames in the animation */
+    from {
+    width: 50px;
+    margin-left: 0px;
+    background-color: blue;
+    } 25% {
+    width: 150px;
+    margin-left: 0px;
+    } 50% {
+    width: 50px;
+    margin-left: 100px;
+    background-color: red;
+    } 75% {
+    width: 150px;
+    margin-left: 100px;
+    } to {
+    width: 50px;
+    margin-left: 200px;
+    background-color: green;
+    }
+}
