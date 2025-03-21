@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ClassList Example</title>
+        <style>
+            /*  
+            the syntax 'tag.class' is a CSS selector combining an element and a class
+            - 'tag' refers to an HTML element (e.g., body, p, div).
+            - '.class' refers to a CSS class applied to elements.
+            - 'tag.class' means "select this specific tag, but only when it has this class."
+
+            Example:
+            - '.dark-mode' applies to ANY element with class="dark-mode".
+            - 'body.dark-mode' applies ONLY to <body> when class="dark-mode".
+            */
+            body.dark-mode {
+                background-color: black;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+
+        <script>
+            /*  
+            'classList' is a property for managing an element's class attribute
+
+            - classList.add("class") → Adds a class to the element
+            - classList.remove("class") → Removes a class from the element
+            - classList.toggle("class") → Adds the class if it's missing, removes it if present
+            - classList.contains("class") → Checks if an element has a specific class
+
+            here, 'toggle("dark-mode")' switches between light and dark mode dynamically
+            */
+            function toggleDarkMode() {
+                document.body.classList.toggle("dark-mode");
+            }
+        </script>
+    </body>
+</html>

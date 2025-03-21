@@ -4,7 +4,7 @@
     grid-template-rows: 80px auto 80px; /* three rows */
     gap: 10px; /* spacing between items */
     height: 100vh;
-  }
+}
   
 .header {
     grid-column: 1 / -1; /* span all columns */
